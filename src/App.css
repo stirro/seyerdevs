@@ -1,3 +1,57 @@
+/*Customs Fonts*/
+@font-face {
+  font-family: IBMPlexMono;
+  src: url('./assets/fonts/IBMPlexMono-Regular.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: IBMPlexMono;
+  src: url('./assets/fonts/IBMPlexMono-Light.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: IBMPlexMono;
+  src: url('./assets/fonts/IBMPlexMono-Medium.ttf');
+  font-weight: 600;
+}
+
+
+@font-face {
+  font-family: IBMPlexMono;
+  src: url('./assets/fonts/IBMPlexMono-Thin.ttf');
+  font-weight: 400;
+}
+
+/*Default CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #e4eaf4 !important;
+  color: #fff !important;
+  font-family: 'IBMPlexMono' !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+
 .App {
   text-align: center;
 }
