@@ -29,7 +29,7 @@ const onUpdateActiveLink = (value) => {
 
 /* eslint-disable no-unused-vars */
 
-  const Logo= useRef(null);
+  const Logo = useRef(null);
   useEffect(() => {
       const typed = new Typed(Logo.current, {
         strings: ['SEYER_','DEVS_','SEYER DEVS_'],
