@@ -15,11 +15,10 @@ export const Banner = () => {
         typeSpeed: 80,
         backSpeed: 80,
         showCursor: true,
+        fadeOut: true,
         loop: false
-
       });
     });            
-
 /* eslint-enable no-unused-vars */
     return(
         <section className="banner" id="home">
