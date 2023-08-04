@@ -15,7 +15,7 @@ export const Banner = () => {
         typeSpeed: 80,
         backSpeed: 80,
         showCursor: true,
-        fadeOut: true,
+        fadeOut: false,
         loop: false
       });
     });            

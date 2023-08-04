@@ -32,10 +32,10 @@ const onUpdateActiveLink = (value) => {
   const Logo= useRef(null);
   useEffect(() => {
       const typed = new Typed(Logo.current, {
-        strings: ['SEYER_','DEVS_','SEYER DEVS'],
+        strings: ['SEYER_','DEVS_','SEYER DEVS_'],
         typeSpeed: 80,
         backSpeed: 80,
-        fadeOut: true,
+        fadeOut: false,
         showCursor: true
       });
     });            
