@@ -36,7 +36,7 @@ const onUpdateActiveLink = (value) => {
         typeSpeed: 80,
         backSpeed: 80,
         fadeOut: false,
-        showCursor: true
+        showCursor: false
       });
     });            
 
