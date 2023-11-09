@@ -7,6 +7,8 @@ import skill_3 from "../assets/img/Skills/azure.png"
 import skill_4 from "../assets/img/Skills/github.png"
 import skill_5 from "../assets/img/Skills/linux.png"
 import skill_6 from "../assets/img/Skills/git-icon.png"
+import skill_7 from "../assets/img/Skills/node.png"
+import skill_8 from "../assets/img/Skills/csharp.png"
 
 export const Skills = () => {
     const responsive = {
@@ -37,7 +39,9 @@ export const Skills = () => {
         <Row>
             <Col>
                 <div className="skill-box">
-                    <p>Lorem.<br></br>Lorem</p>
+                    <p>Contamos con 2 años de experiencia en el desarrollo web usando tecnologias como HTML, Javascript, Node.js.<br></br>
+                    Ademas de contar con los conocimientos y experiencia en desarrollo de software con C# usando .NET como framework y Microsoft SQL Server como DBA.
+                    </p>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item1">
                             <img src={skill_1} alt="c++"/>
@@ -53,7 +57,7 @@ export const Skills = () => {
                         </div>
                         <div className="item">
                             <img src={skill_4} alt="github"/>
-                            <h5>Base de Datos.</h5>
+                            <h5>Control de versiones con Github.</h5>
                         </div>
                         <div className="item">
                             <img src={skill_5} alt="linux"/>
@@ -61,6 +65,14 @@ export const Skills = () => {
                         </div>
                         <div className="item">
                             <img src={skill_6} alt="git"/>
+                            <h5>Control de versiones con GIT</h5>
+                        </div>
+                        <div className="item">
+                            <img src={skill_7} alt="git"/>
+                            <h5>Node.Js como framework</h5>
+                        </div>
+                        <div className="item">
+                            <img src={skill_8} alt="git"/>
                             <h5>Manejo de versiones con GIT</h5>
                         </div>
                     </Carousel>
