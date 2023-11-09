@@ -2,13 +2,7 @@ import { Container, Col, Row } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import skill_1 from "../assets/img/Skills/televisa.png"
-import skill_2 from "../assets/img/Skills/html.png"
-import skill_3 from "../assets/img/Skills/azure.png"
-import skill_4 from "../assets/img/Skills/github.png"
-import skill_5 from "../assets/img/Skills/linux.png"
-import skill_6 from "../assets/img/Skills/git-icon.png"
-import skill_7 from "../assets/img/Skills/node.png"
-import skill_8 from "../assets/img/Skills/SQL.png"
+
 
 export const Projects = () => {
     const responsive = {
