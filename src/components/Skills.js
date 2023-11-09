@@ -8,7 +8,7 @@ import skill_4 from "../assets/img/Skills/github.png"
 import skill_5 from "../assets/img/Skills/linux.png"
 import skill_6 from "../assets/img/Skills/git-icon.png"
 import skill_7 from "../assets/img/Skills/node.png"
-import skill_8 from "../assets/img/Skills/csharp.png"
+import skill_8 from "../assets/img/Skills/SQL.png"
 
 export const Skills = () => {
     const responsive = {
@@ -68,12 +68,12 @@ export const Skills = () => {
                             <h5>Control de versiones con GIT</h5>
                         </div>
                         <div className="item">
-                            <img src={skill_7} alt="git"/>
+                            <img src={skill_7} alt="nodejs"/>
                             <h5>Node.Js como framework</h5>
                         </div>
                         <div className="item">
-                            <img src={skill_8} alt="git"/>
-                            <h5>Manejo de versiones con GIT</h5>
+                            <img src={skill_8} alt="dba"/>
+                            <h5>Programacion en SQL.</h5>
                         </div>
                     </Carousel>
                 </div>
