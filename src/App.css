@@ -110,7 +110,9 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: rgba(7, 14, 64, 0.576)
+  background-color: rgba(193, 196, 221, 0.185);
+  color:rgb(23, 63, 63) !important;
+  
 }
 
 nav.navbar a.navbar-brand {
@@ -229,9 +231,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 200px 0 100px 0;
-  background-position: center center;
+  background-position: center center;;
   background-size: 70%;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-image: url("../src/assets/img/bg1.gif");
 }
 .banner h1 {
@@ -297,27 +299,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*Inicia el diseño del Skills*/
 .skill {
-  margin-top: 0 0 50px 0;
-  position: relative;
+  margin-top: 0;
   padding: 20px 0 100px 0;  
+  background-attachment: fixed;
 }
 .skill-box {
-  background: linear-gradient(90.21deg, rgba(0, 0, 0, 0.990) -5.91%, rgba(15, 20, 120, 0.976) 111.58%);
+  /*background: linear-gradient(90.21deg, rgba(0, 0, 0, 0.990) -5.91%, rgba(15, 20, 120, 0.976) 111.58%);*/
+  background-position: center center;;
+  background-size: 70%;
+  background-attachment: fixed;
+  background-image: url("../src/assets/img/bg4.gif");
   border-radius: 74px;
   text-align: center;
   padding: 60px 50px;
-  margin-top: -150px;
   z-index: 2;
 }
-.skill h1 {
-  font-size: 400px;
-  font-weight: 800;
-  letter-spacing: 10px;
-  justify-content: center;
-  line-height: 1;
-  display: flex;
-  z-index: 1;
-}
+
 
 .skill h5 {
   font-size: 35px;
@@ -337,6 +334,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px 0 75px 0;
 }
 
+.skill h1 {
+  font-size: 250px;
+  font-weight: 800;
+  justify-content: center;
+  line-height: 1;
+  display: flex;
+  z-index: 1;
+}
+
 .skill-slider {
   margin: 0 auto;
   position: relative;
@@ -349,14 +355,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /*Inicia el diseño del Projects*/
 .projects {
-  margin-top: 0 0 50px 0;
-  position: relative;
-  padding: 20px 0 100px 0; 
-  width: max-content; 
-  margin-left: auto;
-  margin-right: auto;
-  height: max-content;
-  margin-bottom: 100px
+  margin-top: 0;
+  padding: 200px 0 100px 0;
+  background-position: center center;;
+  background-size: 70%;
+  background-attachment: fixed;
+  background-image: url("../src/assets/img/bg3.gif");
 }
 
 .projects-desc{
@@ -425,8 +429,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 /*Finaliza el diseño de Projecs*/
 
-@media (prefers-reduced-motion: no-preference) {
-}
+@media (max-width:768px){
+
+  .logo{
+     max-width: 100%;
+     width: 30px;
+     height: auto;
+     object-fit: contain;
+     object-position: center;
+   } 
 
 .App {
   align-items: center;
@@ -454,4 +465,5 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   to {
     transform: rotate(360deg);
   }
+}
 }
