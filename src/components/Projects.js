@@ -32,15 +32,29 @@ export const Projects = () => {
         <h1>DEVELOPING</h1>
         <Row>
             <Col>
-                <div className="projects-box">
-                    <p><br></br></p>
-                    <Carousel responsive={responsive} infinite={true} className="projects-slider">
-                        <div className="item">
-                            <img src={skill_1} alt="c++"/>
-                            <h5>televisa.</h5>
-                        </div>
-                    </Carousel>
-                </div>
+            <div className="projects-desc">
+            <h2>Creando soluciones para todos<span className></span></h2>
+                <p>Hola Soy Sergio Tirro!, tengo 24 años, soy Técnico en informática y estudio la carrera de 
+                Ing. en Comunicaciones y Electrónica en el IPN. Con más de 4 años de experiencia en el área de sistemas computacionales tengo habilidades
+                para el desarrollo de soluciones, desarrollo de proyectos, liderazgo y paciencia y amor por mi profesión.
+                </p>
+            </div>
+            <div className="projects-box1">
+                <Carousel responsive={responsive} infinite={true} className="projects-slider">
+                    <div className="item1">
+                        <img src={skill_1} alt="c++"/>
+                        <h5>televisa.</h5>
+                    </div>
+                </Carousel>
+            </div>
+            <div className="projects-box2">
+                <Carousel responsive={responsive} infinite={true} className="projects-slider">
+                    <div className="item2">
+                        <img src={skill_1} alt="c++"/>
+                        <h5>televisa.</h5>
+                    </div>
+                </Carousel>
+            </div>
             </Col>
         </Row>
         </Container>

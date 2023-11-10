@@ -2,7 +2,6 @@ import { useRef,useEffect } from "react";
 import { Container, Col, Row } from "react-bootstrap"; 
 import "react-multi-carousel/lib/styles.css";
 import Typed from "typed.js";
-
 export const Banner = () => {
 
 /* eslint-disable no-unused-vars */
@@ -20,7 +19,8 @@ export const Banner = () => {
       });
     });            
 /* eslint-enable no-unused-vars */
-    return(
+
+return(
         <section className="banner" id="home">
             <Container>
                 <Row className="aling-items-center">

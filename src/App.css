@@ -350,8 +350,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .projects {
   margin-top: 0 0 50px 0;
   position: relative;
-  padding: 20px 0 100px 0;  
+  padding: 20px 0 100px 0; 
+  width: max-content; 
+  margin-left: auto;
+  margin-right: auto;
+  height: max-content;
+  margin-bottom: 100px
 }
+
+.projects-desc{
+  width: 350px;
+  height: 390px;
+  margin-bottom: 100px;
+}
+
 .projects-box {
   background: linear-gradient(90.21deg, rgba(0, 0, 0, 0.874) -5.91%, rgba(15, 20, 120, 0.976) 111.58%);
   border-radius: 74px;
@@ -361,7 +373,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 2;
 }
 .projects h1 {
-  font-size: 260px;
+  font-size: 250px;
   font-weight: 800;
   justify-content: center;
   line-height: 1;
