@@ -229,9 +229,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 200px 0 100px 0;
-  background-position: top center;
-  background-size: cover;
+  background-position: center center;
+  background-size: 70%;
   background-repeat: no-repeat;
+  background-image: url("../src/assets/img/bg1.gif");
 }
 .banner h1 {
   font-size: 130px;
@@ -361,6 +362,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .projects-desc{
   width: 350px;
   height: 390px;
+}
+
+.projects-desc h2 {
+  font-size: 50px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.projects-desc p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px 0;
 }
 
 .projects-box {
