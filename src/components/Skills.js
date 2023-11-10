@@ -34,7 +34,7 @@ export const Skills = () => {
 
     return (
     <section className="skill" id="skl">
-    <h1>SKILLS</h1>
+        <h1>PROYECTOS</h1>
         <Container>
         <Row>
             <Col>
@@ -79,7 +79,7 @@ export const Skills = () => {
                 </div>
             </Col>
         </Row>
-        </Container>
+    </Container>
     </section>
     )
 }
