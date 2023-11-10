@@ -37,7 +37,7 @@ export const Projects = () => {
                     <Carousel responsive={responsive} infinite={true} className="projects-slider">
                         <div className="item">
                             <img src={skill_1} alt="c++"/>
-                            <h5>Programacion en C++.</h5>
+                            <h5>televisa.</h5>
                         </div>
                     </Carousel>
                 </div>
