@@ -1,54 +1,24 @@
-import { Container, Col, Row } from "react-bootstrap"; 
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import skill_1 from "../assets/img/Skills/televisa.png"
-
+import { Container } from "react-bootstrap"; 
+import skill_1 from "../assets/img/dev2.gif"
 
 export const Projects = () => {
-    const responsive = {
-        superLargeDesktop: {
-          // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
-          items: 5
-        },
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 3
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 464 },
-          items: 2
-        },
-        mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 1
-        }
-    };
 
 
     return (
     <section className="projects" id="project">
         <h1>PROYECTOS</h1>
-        <Container>
-        <Row>
-            <Col>
+        <Container className="container">
             <div className="projects-desc">
-            <h2>Creando soluciones para todos.<span className></span></h2>
-                <p>Durante mi vida profesional he tenido la oportunidad de trabajar en diferentes proyectos, 
-                    los cuales me han permitido desarrollar habilidades y conocimientos en diferentes áreas de la tecnología en las 
-                    áreas de la programación, diseño y administración de proyectos, redes y muchas más.
-                </p>
+                <img src={skill_1} alt="dev"/>
+                <h2>Creando soluciones para todos.<span className></span></h2>
             </div>
-            <div className="projects-box1">
-                <Carousel responsive={responsive} infinite={true} className="projects-slider">
-                    <div className="item1">
-                        <img src={skill_1} alt="c++"/>
-                        <h5>televisa.</h5>
-                    </div>
-                </Carousel>
+            <div className="projects-par">
+            <ul> > Conexión de consolas de iluminacion entre México y Qatar para
+            el mundial de Qatar 2022 con Televisa y Telemundo.</ul>
+            <ul> > Desarrollo de aplicaciones web con php.</ul>
+            <ul> > Desarrollo de aplicaciones y paginas web con React.</ul>
+            <ul> > Creacion de APIS con .NET framework y ASP.NET</ul>
             </div>
-            </Col>
-        </Row>
         </Container>
     </section>
     )
