@@ -61,7 +61,6 @@ return (
           <Nav.Link href="#home" className={ activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
           <Nav.Link href="#skl" className={ activeLink === 'about us' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skl')}>Skills</Nav.Link>
           <Nav.Link href="#project" className={ activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Desarrollos</Nav.Link>
-          <Nav.Link href="#tecnologias" className={ activeLink === 'tecnologias' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('tecnologias')}>Tecnologias</Nav.Link>
         </Nav> 
         <span className='navbar-text'>
           <button className="vvd" onClick={handleConnectButtonClick}>
